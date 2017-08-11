@@ -1,7 +1,6 @@
 require_relative 'project'
 RSpec.describe Project do
   before(:each) do
-    # updated this block to create two projects
     @project1 = Project.new('Project 1', 'description 1')
     @project2 = Project.new('Project 2', 'description 2')
   end
